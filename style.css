@@ -1,0 +1,195 @@
+body h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(52, 175, 130);
+}
+
+p {
+    color: rgb(75, 189, 168);
+    font-size: 20px;
+}
+
+body {
+    background-color: rgba(3, 70, 14, 0.79);
+}
+
+.main-nav a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 1px 10px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+.site-header {
+    padding: 20px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.text-group h1,
+.text-group h2 {
+    margin: 0%;
+}
+
+.logo {
+    width: 400px;
+    height: auto;
+    max-width: 40vw;
+    opacity: 0.95;
+}
+
+.nav-btn {
+    display: inline-block;
+    padding: 8px 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav-btn:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: #2b3e2f;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.6);
+}
+
+.about-page {
+    background-color: #5b8053;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-page p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1.5px;
+}
+
+.about-page h2 {
+    color: #2b3e2f;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about-page section p {
+    color: rgb(44, 210, 107);
+}
+
+.about-page h3 {
+    color: aquamarine;
+}
+
+.about-page ul li {
+    color: rgb(0, 122, 47);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about-page .hours-box {
+    background: #d8f3d1;
+    border: 2px solid #5e8f5a;
+    border-radius: 16px;
+    padding: 20px;
+    max-width: 350px;
+    margin: 25px auto;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.about-page .hours-box h3 {
+    margin-top: 0;
+    color: #2e5a2c;
+    /* deeper green */
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.about-page .hours-box .status {
+    font-weight: 600;
+    color: #3b6d37;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.about-page .hours-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about-page .hours-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 4px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    font-size: 0.95rem;
+}
+
+.about-page .hours-list li:last-child {
+    border-bottom: none;
+}
+
+.about-page .hours-box {
+    transition: box-shadow 0.4s ease, transform 0.3s ease;
+}
+
+.about-page .hours-box:hover {
+    box-shadow:
+        0 0 12px rgba(94, 143, 90, 0.4),
+        0 0 22px rgba(94, 143, 90, 0.35),
+        0 0 32px rgba(94, 143, 90, 0.30);
+    transform: translateY(-3px);
+}
+
+.about-page .location-img {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.digital-menu-page {
+    background-color: #254b2d;
+}
+
+contact-info-page {
+    display: flex;
+    /* Align items side by side */
+    justify-content: center;
+    /* Center the items horizontally */
+    margin-top: 50px;
+    /* Add some space from the top */
+}
+
+.contact-item {
+    margin: 0 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.contact-item:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+}
